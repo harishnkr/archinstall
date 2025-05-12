@@ -1,6 +1,6 @@
 #!/bin/sh
 
-yay -S --needed --noconfirm - < packages.txt
+yay -S --needed --noconfirm - < ~/archinstall/packages.txt
 
 git clone https://www.github.com/harishnkr/.dotfiles ~/.dotfiles
 git clone https://www.github.com/harishnkr/newtonrice ~/newtonrice
@@ -18,7 +18,7 @@ sudo make install
 cd ~/.dotfiles/
 stow zsh tmux lf dunst doom
 
-#To install the tmux plugins first time
+# TODO To install the tmux plugins first time
 cd ~
 ./.tmux/plugins/tpm/scripts/install_plugins.sh
 
@@ -28,7 +28,8 @@ chsh -s /bin/zsh
 cd ~/newtonrice/
 stow bspwm sxhkd polybar picom
 cp -r wallpaper/ ~/wallpaper
-cp -r fonts/ ~/.local/share/fonts
+mkdir -p ~/.local/share
+cp -r ~/newtonrice/fonts/ ~/.local/share/fonts
 fc-cache
 
 # doom emacs config
