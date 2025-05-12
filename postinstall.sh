@@ -35,6 +35,9 @@ fc-cache
 git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
 ~/.config/emacs/bin/doom install
 
+#fix libinput issues
+sudo cp ~/archinstall/40-libinput.conf /etc/X11/xorg.conf.d/
+
 #Copy sddm greether theme
 sudo mv ~/sddm-rose-pine /usr/share/sddm/themes/
 sudo cp ~/newtonrice/sddm/theme.conf /usr/share/sddm/themes/sddm-rose-pine/

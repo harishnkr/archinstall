@@ -45,6 +45,8 @@ thunar
 thunar-volman
 tmux
 trash-cli
+ttf-fira-code
+ttf-fira-sans
 ueberzug
 unzip
 vim
