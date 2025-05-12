@@ -2,11 +2,11 @@
 
 yay -S --needed --noconfirm - < packages.txt
 
-git clone https://www.github.com/harishnkr/.dotfiles
-git clone https://www.github.com/harishnkr/newtonrice
-git clone https://www.github.com/harishnkr/TermRainbow
-git clone https://www.github.com/harishnkr/st
-git clone https://github.com/lwndhrst/sddm-rose-pine
+git clone https://www.github.com/harishnkr/.dotfiles ~/.dotfiles
+git clone https://www.github.com/harishnkr/newtonrice ~/newtonrice
+git clone https://www.github.com/harishnkr/TermRainbow ~/TermRainbow
+git clone https://www.github.com/harishnkr/st ~/st
+git clone https://github.com/lwndhrst/sddm-rose-pine ~/sddm-rose-pine
 git clone https://github.com/harishnkr/nvim-config ~/.config/nvim
 
 
