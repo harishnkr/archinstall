@@ -1,5 +1,7 @@
+arch-install-scripts
 base
 base-devel
+batsignal
 betterlocksreen
 bibata-cursor-theme-bin
 blueman
@@ -25,12 +27,14 @@ neovim
 network-manager-applet
 networkmanager
 ntfs-3g
+noto-fonts-emoji
 nvidia
 nvimpager
 os-prober
 picom
 pipewire
 polybar
+qt5-svg
 qt5-quickcontrols
 qt5-quickcontrols2 
 qt5-graphicaleffects
@@ -38,6 +42,7 @@ ranger
 ripgrep
 rofi
 rofimoji
+rofi-pass
 sddm
 stow
 sxhkd
@@ -60,6 +65,7 @@ xorg-xev
 xorg-xinit
 xorg-xinput
 xorg-xsetroot
+xss-lock
 yad
 yay
 zsh
