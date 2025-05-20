@@ -16,7 +16,7 @@ make all
 sudo make install
 
 cd ~/.dotfiles/
-stow zsh tmux lf dunst doom
+stow zsh tmux lf dunst doom X betterlockscreen
 
 # TODO To install the tmux plugins first time
 cd ~
@@ -25,12 +25,16 @@ cd ~
 #Change shell
 chsh -s /bin/zsh
 
+
 cd ~/newtonrice/
-stow bspwm sxhkd polybar picom
+stow bspwm sxhkd polybar picom gtk rofi
 cp -r wallpaper/ ~/wallpaper
 mkdir -p ~/.local/share
 cp -r ~/newtonrice/fonts/ ~/.local/share/fonts
 fc-cache
+
+# update wallpaper for betterlockscreen
+betterlockscreen -u ~/wallpaper/pexels-sohi-807598.jpg
 
 # doom emacs config
 git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
